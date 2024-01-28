@@ -1,0 +1,19 @@
+{
+
+  "description": "Adds the ability to *page down/up* all of your Mastodon columns in the Advanced Web UI (if you are using that setting).",
+  "manifest_version": 2,
+  "name": "PageDownMastodon",
+  "version": "1.1",
+  "homepage_url": "https://metafruit.com/pagedown",
+  "icons": {
+    "48": "fixpunk-faded.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/deck/*"],
+      "js": ["newpagedown.js"]
+    }
+  ]
+
+}
