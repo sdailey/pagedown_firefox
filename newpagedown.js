@@ -4,7 +4,7 @@
 
 var initializingHTML = "<div id='initializingProgress' > PageDown is initializing...</div>";
 
-var followHTML = "<div id='removeFollowButton' > PageDown's finished initializing. Hotkeys are enabled. <br>Press '\\' to toggle them on/off. <br>Press 'i' to PageDown all columns. <br>Press 'u' to PageUp all columns. <br>Press 'o' to return all columns to top.  </span> &nbsp; <br> <div style='padding-top:5px;'><a href='https://journa.host/spencerdailey' class='twitter-follow-button' data-show-count='false' data-dnt='true'>By @spencerdailey</a></div></div>";
+var followHTML = "<div id='removeFollowButton' > PageDown's finished initializing. Hotkeys are enabled. <br>Press '\\' to toggle them on/off. <br>Press 'i' to PageDown all columns. <br>Press 'u' to PageUp all columns. <br>Press 'o' to return all columns to top.  </span> &nbsp; <br> <div style='padding-top:5px;'><a href='https://journa.host/@spencerdailey' class='twitter-follow-button' data-show-count='false' data-dnt='true'>By @spencerdailey</a></div></div>";
 
 string_hotkeyToggleHTML = "<div id='wb__hotkeyReminder' >Reminder: <br>Press '\\' to enable HOTKEYS </div>";
       
